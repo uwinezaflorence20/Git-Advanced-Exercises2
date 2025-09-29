@@ -40,3 +40,5 @@ Part 1: Refining Git History (10 Challenges)
   260  git reflog
   261  git reset --hard HEAD@{2}
   262  history
+
+  Part 2: Branching Basics
