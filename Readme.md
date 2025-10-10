@@ -88,3 +88,38 @@ Part 1: Refining Git History (10 Challenges)
   273  git merge ft/branch
   274  git add example.txt
   275  git commit -m "resolve comflict between main and ft/branch"
+  git config --global merge.tool vscode
+  286  git config --global mergetool.vscode.cmd "code --wait $MERGED"
+  287  git add conflict.txt
+  288  git commit -m "added the conflict"
+  289  git checkout ft/branch
+  290  git checkout main
+  291  git add conflict.txt
+  292  git commit -m "added the conflict"
+  293  git checkout ft/branch
+  294  git merge main
+  295  git add conflict.txt
+  296  git commit -m "added the conflict"
+  297  git checkout main
+  298  git checkout main
+  299  echo "Original line" > examples.txt
+  300  git add examples.txt
+  301  git commit -m "Add example.txt with original line"
+  302  echo "This is the main branch change" > example.txt
+  303  git add example.txt
+  304  git commit -m "Change example.txt in main"
+  305  git checkout ft/branch
+  306  echo "This is the ft/branch change" > example.txt
+  307  git add example.txt
+  308  git commit -m "Change example.txt in ft/branch"
+  309  git checkout main
+  310  git merge ft/branch
+  311  git config --global merge.tool vscode
+  312  git config --global mergetool.vscode.cmd "code --wait $MERGED"
+  313  git merge ft/branch
+  314  git mergetool
+  315  git merge ft/branch
+  316  git add example.txt
+  317  git merge ft/branch
+  318  git commit -m "saved the changes"
+  319  git merge ft/branch
