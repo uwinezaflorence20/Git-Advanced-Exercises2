@@ -41,4 +41,16 @@ Part 1: Refining Git History (10 Challenges)
   261  git reset --hard HEAD@{2}
   262  history
 
-  Part 2: Branching Basics
+  Part 3: Branching Basics
+
+  git branch
+  224  git checkout ft/branch
+  225  git checkout main
+  226  git stash
+  227  git stash list
+  228  git checkout ft/branch
+  229  git merge main
+  230  git branch
+  231  git checkout ft/improved-branch-name
+  232  git merge main
+  233  git checkout main
