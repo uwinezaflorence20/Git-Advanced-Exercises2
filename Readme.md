@@ -54,3 +54,13 @@ Part 1: Refining Git History (10 Challenges)
   231  git checkout ft/improved-branch-name
   232  git merge main
   233  git checkout main
+
+  git stash pop
+  241  git stash list
+  242  git stash
+  243  git stash list
+  244  git stash apply
+  245  git stash list
+  246  git stash pop
+  247  git stash
+  248  history
