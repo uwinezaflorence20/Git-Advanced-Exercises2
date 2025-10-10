@@ -64,3 +64,27 @@ Part 1: Refining Git History (10 Challenges)
   246  git stash pop
   247  git stash
   248  history
+
+  git checkout ft/branch
+  254  git merge main
+  255  git checkout main
+  256  git merge ft/branch
+  257  git checkout ft/branch
+  258  git nmerge main
+  259  git merge main
+  260  git branch
+  261  git checkout main
+  262  echo "Original line" > example.txt
+  263  git add example.txt
+  264  git commit -m "Add example.txt with original line"
+  265  echo "This is the main branch change" > example.txt
+  266  git add example.txt
+  267  git commit -m "Change example.txt in main"
+  268  git checkout ft/branch
+  269  echo "This is the ft/branch change" > example.txt
+  270  git add example.txt
+  271  git commit -m "change example.txt in ft/branch"
+  272  git checkout main
+  273  git merge ft/branch
+  274  git add example.txt
+  275  git commit -m "resolve comflict between main and ft/branch"
